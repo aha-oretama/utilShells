@@ -1,9 +1,9 @@
-utilShell
+# utilShells
 
-# extract.sh
+## extract.sh
 
 Usage:
-  "$0" [-o outputPath] targetFile
+  ./extract.sh [-o outputPath] targetFile
 
 Description:
   Unzip file.
@@ -11,13 +11,12 @@ Description:
 
 Options:
   -o  output-directory
-  "$0" [-o outputPath] targetFile
 
 
-# replace.sh
+## replace.sh
 
 Usage:
-  $0 [-R] [-e] directory|file oldChars newChars
+  ./replace.sh [-R] [-e] directory|file oldChars newChars
 
 Description:
   Repalce all occurrences of oldChar in the file or in the files of the directory with newChar.
@@ -27,7 +26,7 @@ Options:
   -e:enable regular expression
 
 
-# alias
+## alias
 
 Move .bash_profile to your home directory.
 Convenient commands is defined as alias.

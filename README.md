@@ -1,6 +1,6 @@
 utilShell
 
-* extract.sh
+# extract.sh
 
 Usage:
   "$0" [-o outputPath] targetFile
@@ -13,7 +13,8 @@ Options:
   -o  output-directory
   "$0" [-o outputPath] targetFile
 
-* replace.sh
+
+# replace.sh
 
 Usage:
   $0 [-R] [-e] directory|file oldChars newChars
@@ -26,7 +27,8 @@ Options:
   -e:enable regular expression
 
 
-* alias
+# alias
+
 Move .bash_profile to your home directory.
 Convenient commands is defined as alias.
 

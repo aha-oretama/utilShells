@@ -44,7 +44,7 @@ if [ $# -lt 1 ]; then
 fi
 
 
-expect -d -c "
+expect -c "
 set timeout 2
 spawn env LANG=C /usr/bin/ssh \"${1}\"
 expect \"(yes/no?)\" {

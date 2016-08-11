@@ -25,6 +25,16 @@ Options:
   -R:find files in the directory recursively
   -e:enable regular expression
 
+## sshExpect.ssh
+
+Usage:
+  ./sshExpect.ssh -p password username@hostname
+
+Description:
+  ssh with password.
+
+Options:
+  -p  password
 
 ## alias
 
